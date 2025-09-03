@@ -1,0 +1,29 @@
+{
+    "name": "bookstore",
+    "version": "1.0.0",
+    "description": "mern project",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ayush056github/The-Book-Store.git"
+    },
+    "author": "Ayush",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Ayush056github/The-Book-Store/issues"
+    },
+    "homepage": "https://github.com/Ayush056github/The-Book-Store#readme",
+    "dependencies": {
+        "bcryptjs": "^3.0.2",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.0",
+        "express": "^5.1.0",
+        "mongoose": "^8.16.3",
+        "nodemon": "^3.1.10"
+    }
+}
