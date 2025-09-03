@@ -1,5 +1,4 @@
 import React from "react";
-import banner from "../../public/Banner.png";
 function Banner() {
   return (
     <>
@@ -31,11 +30,12 @@ function Banner() {
           <button className="btn mt-6 btn-secondary">Get Started</button>
         </div>
         <div className=" order-1 w-full mt-20 md:w-1/2">
-          <img
-            src={banner}
-            className="md:w-[550px] md:h-[460px] md:ml-12"
-            alt=""
-          />
+          <div className="md:w-[550px] md:h-[460px] md:ml-12 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg flex items-center justify-center">
+            <div className="text-white text-center">
+              <h3 className="text-2xl font-bold mb-2">📚 UpBook Store</h3>
+              <p className="text-lg">Your Learning Journey Starts Here</p>
+            </div>
+          </div>
         </div>
       </div>
     </>
